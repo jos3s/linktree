@@ -1,6 +1,7 @@
 :root{
   --bg:#F8F8F8;
   --text:#29292E;
+  --white:#F8F8F8;
   --purple:#835AFD;
 }
 
@@ -77,6 +78,6 @@ header h1{
 
 .link:hover{
  background:var(--purple);
- color:var(--text);
+ color:var(--white);
  opacity: 1;
 }
