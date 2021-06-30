@@ -41,6 +41,24 @@ header h1{
   opacity: 1;
 }
 
+.social{
+  margin-top:1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:1.5rem;
+  opacity: .9;
+  
+}
+
+.social i{
+  transform:scale(1.5);
+}
+
+.dark .social i{
+  color: var(--white);
+}
+
 .toggle{
   height: auto;
   display: flex;
