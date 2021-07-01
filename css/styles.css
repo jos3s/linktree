@@ -48,7 +48,6 @@ header h1{
   justify-content: center;
   gap:1.5rem;
   opacity: .9;
-  
 }
 
 .social i{
@@ -56,7 +55,11 @@ header h1{
 }
 
 .dark .social i{
-  color: var(--white);
+  color:white;
+}
+
+.social:hover{
+  opacity: .8;
 }
 
 .toggle{
