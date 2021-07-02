@@ -33,7 +33,7 @@ body{
   height: 100vh;
   gap:2rem;
   font-family: 'Fira Code', monospace;
-  margin: 4rem 0;
+  margin: 0;
 }
 
 header, main, footer{

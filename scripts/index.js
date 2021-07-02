@@ -1,4 +1,4 @@
-const discord = document.getElementById("discord");
+/* const discord = document.getElementById("discord");
 const discordNick = "Iordbrack#6142";
 
 discord.addEventListener("click", () => {
@@ -12,7 +12,7 @@ discord.addEventListener("click", () => {
       }, 1500);
     })
     .catch((e) => alert(e.message));
-});
+}); */
 
 const themeSwitch = document.getElementById("switch");
 const html = document.documentElement;
@@ -41,4 +41,3 @@ themeSwitch.addEventListener("change", ({ target: { checked } }) => {
     localStorage.setItem("@jos3sLinktree/Theme", "light");
   }
 });
-
